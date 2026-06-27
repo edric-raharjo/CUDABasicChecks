@@ -1,0 +1,6 @@
+# 1. Point Python to the newly installed toolkit
+export CUDA_HOME=/usr/lib/nvidia-cuda-toolkit
+export PATH=$CUDA_HOME/bin:$PATH
+
+# 2. Activate your virtual environment (adjust path if your venv has a different name)
+source bin/activate
